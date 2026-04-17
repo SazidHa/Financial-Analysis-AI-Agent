@@ -1,19 +1,21 @@
-This project demonstrates how to build an AI-powered financial analysis agent using Azure AI Foundry (GPT-4o-mini) that analyzes financial data from a CSV dataset.
+# This project demonstrates how to build an AI-powered financial analysis agent using Azure AI Foundry (GPT-4o-mini) that analyzes financial data from a CSV dataset.
 
 Instead of calling external APIs, the agent reads structured data and generates insights such as:
 
-Top 10 companies by revenue
-Profit comparisons
-Financial trends
-Custom analytical queries
-🚀 Features
+   Top 10 companies by revenue
+   Profit comparisons
+   Financial trends
+   Custom analytical queries
+   
+# 🚀 Features
 ✅ AI Agent powered by GPT-4o-mini
 ✅ CSV-based financial data analysis
 ✅ Natural language queries → structured insights
 ✅ Supports ranking, filtering, aggregation
 ✅ No external API required
 ✅ Extendable for advanced analytics
-🧠 How It Works
+
+# 🧠 How It Works
 User Query
    ↓
 Azure AI Agent (GPT-4o-mini)
@@ -23,7 +25,8 @@ Reads CSV Dataset
 Processes Data (Python / Pandas)
    ↓
 Returns Insights (Top companies, trends, etc.)
-📂 Project Structure
+
+#📂 Project Structure
 .
 ├── data/
 │   └── financial_data.csv     # Input dataset
@@ -33,7 +36,8 @@ Returns Insights (Top companies, trends, etc.)
 │   └── data_analysis.py      # CSV processing logic
 ├── README.md
 └── requirements.txt
-⚙️ Setup
+
+# ⚙️ Setup
 1. Clone the repo
 git clone https://github.com/your-username/financial-analysis-agent.git
 cd financial-analysis-agent
